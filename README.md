@@ -53,7 +53,7 @@ and move them inside the ```pretrained_models``` folder
 
    
 ## Usage
-For testing, you need one or more HQ ```mp4 ``` videos. These videos will be compressed with a given CRF. The face from each frame
+For testing, you need one or more HQ ```mp4``` videos. These videos will be compressed with a given CRF. The face from each frame
 will be cropped, aligned and then restored with our model exploiting HQ keyframes.
 
 ### Testing

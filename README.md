@@ -14,7 +14,7 @@
 ## About the Project
 ![Inference example](media/inference_example.png)
 
-This is the official repo of the paper "GANs for Perceptual Quality Improvement in VideconferencingUsing Key Frames".
+This is the official repo of the paper ***GANs for Perceptual Quality Improvement in Videconferencing Using Key Frames***.
 
 In this work we propose a novel GAN architecture for compression artifacts reduction in videoconferencing. In this context,
 the speaker is typically in front of the camera and remains the same for the entire duration of the transmission.

@@ -1,6 +1,6 @@
 # Keyframes-GAN
 
-### [Video demo](media/video_demo.mp4)
+### [Download the video demo](media/video_demo.mp4)
 
 ## Table of Contents
 
@@ -50,7 +50,11 @@ pip install -e pybrisque/
 ```
 
 
-5. Download the pretrained models from [Google Drive](https://drive.google.com/drive/folders/1Hmd7k2KuLQd-A8DYbEhSgC49DQEAKwKm?usp=sharing)
+5. Download the pretrained models
+  * [Model weights](https://drive.google.com/file/d/1bLLe01Bw8SNdVZIJjBTKriqFNHZlaPQL/view?usp=sharing)
+  * [Dlib CNN face detector](https://drive.google.com/file/d/1bLLe01Bw8SNdVZIJjBTKriqFNHZlaPQL/view?usp=sharing)
+  * [Dlib shape predictor](https://drive.google.com/file/d/1bLLe01Bw8SNdVZIJjBTKriqFNHZlaPQL/view?usp=sharing)
+ 
 and move them inside the ```pretrained_models``` folder
 
    

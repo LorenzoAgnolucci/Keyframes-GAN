@@ -1,6 +1,6 @@
 # Keyframes-GAN
 
-### [Video demo](https://drive.google.com/file/d/1BllnkDQNOLENFdF7FjEahBGWNEeY4-IC/view?usp=sharing)
+### [Video demo](media/video_demo.mp4)
 
 ## Table of Contents
 

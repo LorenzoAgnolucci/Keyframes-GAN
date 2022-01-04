@@ -51,8 +51,8 @@ pip install -e pybrisque/
 
 
 5. Download the pretrained models
-  * [Model weights](https://drive.google.com/file/d/1bLLe01Bw8SNdVZIJjBTKriqFNHZlaPQL/view?usp=sharing)
-  * [Dlib CNN face detector](https://drive.google.com/file/d/1bLLe01Bw8SNdVZIJjBTKriqFNHZlaPQL/view?usp=sharing)
+  * [Model weights](https://drive.google.com/file/d/1JDBgiwEFpBHMtIJLRd1y_9IRKmw99MgN/view?usp=sharing)
+  * [Dlib CNN face detector](https://drive.google.com/file/d/1l2R9qImsBXkCgk698v1QUp0k7rqudeRd/view?usp=sharing)
   * [Dlib shape predictor](https://drive.google.com/file/d/1bLLe01Bw8SNdVZIJjBTKriqFNHZlaPQL/view?usp=sharing)
  
 and move them inside the ```pretrained_models``` folder

@@ -1,22 +1,20 @@
-# Keyframes-GAN
+# Keyframes-GAN (IEEE TMM 2023)
 
 ### [Download the video demo](media/video_demo.mp4)
 
 ## Table of Contents
 
-* [About the Project](#about-the-project)
+* [Overview](#overview)
 * [Prerequisites and Installation](#prerequisites-and-installation)
 * [Usage](#usage)
   * [Testing](#testing)
-* [Acknowledgments](#acknowledgments)
-* [License](#license)
 * [Citation](#citation)
-* [Contacts](#contacts)
+* [Acknowledgments](#acknowledgments)
 
-## About the Project
+## Overview
 ![Inference example](media/inference_example.png)
 
-This is the official repo of the paper ***GANs for Perceptual Quality Improvement in Videconferencing Using Key Frames***.
+This is the official repo of the paper [***Perceptual Quality Improvement in Videoconferencing using Keyframes-based GAN***](https://ieeexplore.ieee.org/abstract/document/10093128).
 
 In this work we propose a novel GAN architecture for compression artifacts reduction in videoconferencing. In this context,
 the speaker is typically in front of the camera and remains the same for the entire duration of the transmission.
@@ -85,8 +83,20 @@ python compute_metrics.py --gt_path {BASE_PATH}/original --inference_path infere
 ```
 where ```gt_path``` is the directory that contains the HQ videos and ```inference_path``` is the directory that contains the restored frames
 
+## Citation
+
+```bibtex
+
+@article{agnolucci2023perceptual,
+  author={Agnolucci, Lorenzo and Galteri, Leonardo and Bertini, Marco and Bimbo, Alberto Del},
+  journal={IEEE Transactions on Multimedia}, 
+  title={Perceptual Quality Improvement in Videoconferencing using Keyframes-based GAN}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-14},
+  doi={10.1109/TMM.2023.3264882}}
+```
+
 ## Acknowledgments
 We rely on [BasicSR](https://github.com/xinntao/BasicSR) for the implementation of our model and for metrics computation.
-## License
-## Citation
-## Contacts

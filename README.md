@@ -1,5 +1,8 @@
 # Keyframes-GAN (IEEE TMM 2023)
 
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2311.04263)
+[![GitHub Stars](https://img.shields.io/github/stars/LorenzoAgnolucci/Keyframes-GAN?style=social)](https://github.com/LorenzoAgnolucci/Keyframes-GAN)
+
 ### [Download the video demo](media/video_demo.mp4)
 
 ## Table of Contents

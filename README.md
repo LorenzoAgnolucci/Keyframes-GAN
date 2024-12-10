@@ -11,6 +11,7 @@
 * [Prerequisites and Installation](#prerequisites-and-installation)
 * [Usage](#usage)
   * [Testing](#testing)
+  * [Training](#training)
 * [Citation](#citation)
 * [Acknowledgments](#acknowledgments)
 
@@ -86,19 +87,30 @@ python compute_metrics.py --gt_path {BASE_PATH}/original --inference_path infere
 ```
 where ```gt_path``` is the directory that contains the HQ videos and ```inference_path``` is the directory that contains the restored frames
 
+### Training
+1. Modify the file ```BasicSR/options/train/DMSASFFNet/train_DMSASFFNet.yml``` to indicate the path of your training and validation datasets
+
+2. Start training by running the following command with `BasicSR` as the current working directory:
+
+```sh
+python basicsr/train.py -opt options/train/DMSASFFNet/train_DMSASFFNet.yml
+``` 
+Please refer to [BasicSR](https://github.com/xinntao/BasicSR) for more information on the fields of the _options_ file.
+
+
 ## Citation
 
 ```bibtex
 
 @article{agnolucci2023perceptual,
-  author={Agnolucci, Lorenzo and Galteri, Leonardo and Bertini, Marco and Bimbo, Alberto Del},
-  journal={IEEE Transactions on Multimedia}, 
-  title={Perceptual Quality Improvement in Videoconferencing using Keyframes-based GAN}, 
+  title={Perceptual quality improvement in videoconferencing using keyframes-based {GAN}},
+  author={Agnolucci, Lorenzo and Galteri, Leonardo and Bertini, Marco and Del Bimbo, Alberto},
+  journal={IEEE Transactions on Multimedia},
+  volume={26},
+  pages={339--352},
   year={2023},
-  volume={},
-  number={},
-  pages={1-14},
-  doi={10.1109/TMM.2023.3264882}}
+  publisher={IEEE}
+}
 ```
 
 ## Acknowledgments
